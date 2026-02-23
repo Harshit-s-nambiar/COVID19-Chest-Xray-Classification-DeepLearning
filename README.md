@@ -27,7 +27,6 @@ This project demonstrates practical skills in deep learning model development, t
 - Performance Comparison
 - Overfitting Analysis
 - Scikit-learn Metrics
-- Git & GitHub
 
 ---
 
@@ -57,18 +56,18 @@ This project demonstrates practical skills in deep learning model development, t
 
 | Model | Train Accuracy | Validation Accuracy |
 |-------|---------------|--------------------|
-| VGG16 | 97.6% | 78.7% |
-| ResNet50 | **98.4%** | **83.3%** |
-| ResNet50 + Augmentation | 96.0% | 72.7% |
+| VGG16 | 98% | 84.4% |
+| ResNet50 | **99,6%** | **75.7%** |
+| ResNet50 + Augmentation | 91.6% | 71.2% |
 
-### ✅ Best Model: ResNet50  
-Achieved highest validation accuracy of **83.3%**.
+### ✅ Best Model: VGG16  
+Achieved highest validation accuracy of **84.4%**.
 
 ---
 
 ## 📈 Key Learnings & Observations
 
-- ResNet50 outperformed VGG16 due to residual connections enabling better feature learning.
+- VGG16 outperformed ResNet50 due to residual connections enabling better feature learning.
 - Slight overfitting observed due to small dataset size.
 - Data augmentation did not significantly improve performance in this case.
 - Validation accuracy aligned with manual accuracy_score verification after resolving dataset shuffling issues.

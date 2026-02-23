@@ -82,7 +82,7 @@ Achieved highest validation accuracy of **83.3%**.
 - Directory-based structured dataset
 - Preprocessed to 224x224 resolution
 
-Dataset source: (Add Kaggle or source link here)
+Dataset source: (https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset)
 
 ---
 
